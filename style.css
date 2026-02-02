@@ -26,7 +26,7 @@ img{
     border: 10px #ffffff dashed;
 }
 div{
-    height: 125px;
+    min-height: 125px;
     padding: 20px;
     border: 3px #ffffff solid;
 }
@@ -36,14 +36,12 @@ div{
     line-height: 2.0;
 }
 .red{
-    height: 125px;
     background-color: #ff0000; 
     text-align: right;
     margin-left: 50px;
     border-width: 0px 0px 2px 5px;
 }
 .blue{
-    height: 125px;
     background-color: #0000ff;
     color:#C4C4C4;
     text-align: left;
@@ -54,7 +52,6 @@ div{
     color:#C4C4C4;
 }
 .yellow{
-    height: 125px;
     background-color: #ffff00;
     text-align: right;
     margin-left: 50px;
@@ -63,7 +60,6 @@ div{
 .yellow p{color: #707070;}
 
 .green{
-    height: 125px;
     background-color:#008500;
     text-align: left;
     margin-right: 50px;
